@@ -1,3 +1,5 @@
+package lecture_1_simpleGetRequest;
+
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
@@ -5,7 +7,8 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
+
 public final class GetRequestDemoTest {
 
     @Test
